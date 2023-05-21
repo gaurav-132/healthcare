@@ -306,3 +306,154 @@ body{
         }
     }
 }
+
+.section-6{
+    .our-services{
+        text-align: center;
+        margin-top: 60px;
+        margin-bottom: 100px;
+        .title-section{
+            text-align: center;
+            .row{
+                display: flex;
+                justify-content: center;
+                margin-top: 10px;
+                hr{
+                    width: 56px;
+                }
+            }
+        }
+    }
+   .card-section{
+        margin-top: 70px;
+        // background: gray;
+        .card-row{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 100%;
+            .card{
+                width: 32%;
+                height: 425px;
+                padding-bottom: 35px;
+                border-radius: 12px;
+                box-shadow: 2px 3px 16px #f0ebeb8a;
+                position: relative;
+                img{
+                    width: 100%;
+                    margin-bottom: 15px;
+                    border-radius: 12px 12px 0px 0px;
+                }
+                h4{
+                    margin-bottom: 15px;
+                    width: 275px;
+                    margin-left: 25px;
+                }
+                p{
+                    font-size: 15px;
+                    line-height: 20px;
+                    color: #7D7987;
+                    padding-left: 25px;
+                    width: 305px;
+                }
+                div{
+                    position: absolute;
+                    left: 27px;
+                    bottom: 10px;
+                    align-items: center;
+                    width: 80%;
+                    display: flex;
+                    img{
+                        width: 23px;
+                        margin: 0px;
+                        margin-left: 40px;
+                    }
+                    button{
+                        color: #4089ED;
+                        border: none;
+                        background: none;
+                        font-size: 14px;
+                    }
+                }
+            }
+        }
+        .view-more{
+            margin-top: 80px;
+            button{
+                padding: 13px;
+                width: 170px;
+                border-radius: 25px;
+                color: #458FF6;
+                font-weight: 700px;
+                border-color: #458FF6;
+                background: #fff;
+                font-size: 14px;
+            }
+        }
+    }
+}
+
+.footer{
+    background: linear-gradient(208.18deg, #67C3F3 9.05%, #5A98F2 76.74%);
+    padding-top: 70px; 
+    padding-bottom: 70px; 
+    .container{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 40px;
+        margin-bottom: 40px;           
+        .sec-1{
+            color: #fff;
+            width: 30%;
+            h5{
+                margin-bottom: 30px;
+                font-size: 18px;
+            }
+            p{
+                font-size: 14px;
+                font-weight: 100;
+                line-height: 22px;
+                margin-bottom: 23px;
+            }
+        }
+        .sec-2{
+            color: #fff;
+            h5{
+                margin-bottom: 30px;
+                font-size: 18px;
+            }
+            p{
+                font-size: 14px;
+                font-weight: 100;
+                line-height: 22px;
+                margin-bottom: 23px;
+            }
+        }
+        .sec-3{
+            color: #fff;
+            h5{
+                margin-bottom: 30px;
+                font-size: 18px;
+            }
+            p{
+                font-size: 14px;
+                font-weight: 100;
+                line-height: 22px;
+                margin-bottom: 23px;
+            }
+        }
+        .sec-4{
+            color: #fff;
+            h5{
+                margin-bottom: 30px;
+                font-size: 18px;
+            }
+            p{
+                font-size: 14px;
+                font-weight: 100;
+                line-height: 22px;
+                margin-bottom: 23px;
+            }
+        }
+    }
+}
