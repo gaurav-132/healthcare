@@ -249,14 +249,6 @@ body {
   margin-bottom: 20px;
   color: #fff;
 }
-.section-5 .main-carausel .carausel div {
-  text-align: center;
-}
-.section-5 .main-carausel .carausel div hr {
-  width: 30px;
-  margin-top: 10px;
-  margin-bottom: 10px;
-}
 .section-5 .main-carausel .carausel .carausel-parent {
   display: flex;
   justify-content: space-evenly;
@@ -378,6 +370,16 @@ body {
   border-color: #458FF6;
   background: #fff;
   font-size: 14px;
+}
+
+.carausel-hr {
+  display: flex;
+  justify-content: center;
+}
+.carausel-hr hr {
+  width: 100px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .footer {
