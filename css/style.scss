@@ -113,7 +113,7 @@ body{
             text-align: center;
             .row{
                 display: flex;
-                justify-content: space-between;
+                justify-content: center;
                 hr{
                     width: 56px;
                 }
@@ -308,6 +308,7 @@ body{
 }
 
 .section-6{
+    padding-top: 20px;
     .our-services{
         text-align: center;
         margin-top: 60px;

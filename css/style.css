@@ -114,7 +114,7 @@ body {
 }
 .section-2 .our-services .title-section .row {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
 }
 .section-2 .our-services .title-section .row hr {
   width: 56px;
@@ -294,6 +294,9 @@ body {
   left: 250px;
 }
 
+.section-6 {
+  padding-top: 20px;
+}
 .section-6 .our-services {
   text-align: center;
   margin-top: 60px;
